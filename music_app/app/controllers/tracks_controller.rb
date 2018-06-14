@@ -8,7 +8,7 @@ class TracksController < ApplicationController
   def create
     track = Track.new(track_params)
     if track.save
-      redirect_to tracks_url(track)
+      redirect_to track_url(track)
     else
       flash.now[:error] = track.errors.full_messages
       render :new
