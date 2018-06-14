@@ -1,6 +1,0 @@
-<!-- <label for="tracks">Tracks</label>
-<ul class="tracks">
-  <% # @album.tracks.each do |track| %>
-    <li><%= # track.title %></li>
-  <% # end %>
-</ul> -->

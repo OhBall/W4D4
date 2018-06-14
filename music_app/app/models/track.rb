@@ -18,7 +18,7 @@ class Track < ApplicationRecord
 
   belongs_to :album
 
-  belongs_to :artist,
+  has_one :artist,
     through: :album
 
 end

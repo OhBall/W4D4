@@ -5398,3 +5398,219 @@ Migrating to CreateTracks (20180614203147)
   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4505726345591715405)[0m
   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 16:50:30 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  Rendered tracks/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 18.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 16:50:41 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  Rendered tracks/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 16:51:28 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  Rendered tracks/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 16:57:30 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  Rendered tracks/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 16:57:44 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  Rendered tracks/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 16:58:11 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  Rendered tracks/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 16:59:34 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  Rendered tracks/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 17:02:03 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  Rendered tracks/new.html.erb within layouts/application (62.7ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<Album:0x007fbb219d4598>):
+    25:   <label for="album">Album</label>
+    26:   <select class="album" name="track[album_id]">
+    27:     <% Album.all.each do |album| %>
+    28:       <option value="<%=album.id%>"><%= album.name %></option>
+    29:     <% end %>
+    30:   </select>
+    31: 
+  
+app/views/tracks/new.html.erb:28:in `block in _app_views_tracks_new_html_erb__2278017745325769174_70220822126540'
+app/views/tracks/new.html.erb:27:in `_app_views_tracks_new_html_erb__2278017745325769174_70220822126540'
+app/controllers/tracks_controller.rb:5:in `new'
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 17:02:19 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  Rendered tracks/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/albums" for 127.0.0.1 at 2018-06-14 17:03:05 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"4F5ZNyu2iSmOtxjLQv40VcyFHQiCLx2OLaDiuWXC4MSrQC3Po/a7j0Gx/GLGpl2QiyuYLYdF1YsRJ/vKsBnTkw==", "track"=>{"title"=>"MeWOW", "ord"=>"1", "bonus?"=>"false", "lyrics"=>"Meow", "album_id"=>"1"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: album):
+  
+app/controllers/albums_controller.rb:44:in `album_params'
+app/controllers/albums_controller.rb:9:in `create'
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 17:03:48 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  Rendered tracks/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/tracks" for 127.0.0.1 at 2018-06-14 17:04:08 -0400
+Processing by TracksController#create as HTML
+  Parameters: {"authenticity_token"=>"MWBDoSx1/7JTr7qKPbrFWd7ZBysJOxLS3NMDV3TOppp6fjdZpDXNFJypXiO54qycmXeCDgxR2tfgVBokoRWVzQ==", "track"=>{"title"=>"MeWow", "ord"=>"1", "bonus?"=>"false", "lyrics"=>"who run the jewels?", "album_id"=>"1"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+ArgumentError (Unknown key: :through. Valid keys are: :class_name, :anonymous_class, :foreign_key, :validate, :autosave, :foreign_type, :dependent, :primary_key, :inverse_of, :required, :polymorphic, :touch, :counter_cache, :optional, :default):
+  
+app/models/track.rb:21:in `<class:Track>'
+app/models/track.rb:13:in `<top (required)>'
+app/controllers/tracks_controller.rb:9:in `create'
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 17:05:24 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  Rendered tracks/new.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 95ms (Views: 52.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/tracks" for 127.0.0.1 at 2018-06-14 17:05:48 -0400
+Processing by TracksController#create as HTML
+  Parameters: {"authenticity_token"=>"iyBdKFCnQq5GonRnCY61WWrD1WH1AgI3njuvjeIAMNTAPinQ2OdwCImkkM6N1tycLW1QRPBoyjKivLb+N9sDgw==", "track"=>{"title"=>"MeWow", "ord"=>"1", "bonus?"=>"false", "lyrics"=>"MEOW MEOW MEWOW", "album_id"=>"1"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+Unpermitted parameter: :bonus?
+No template found for TracksController#create, rendering head :no_content
+Completed 204 No Content in 135ms (ActiveRecord: 6.6ms)
+
+
+Started POST "/tracks" for 127.0.0.1 at 2018-06-14 17:05:52 -0400
+Processing by TracksController#create as HTML
+  Parameters: {"authenticity_token"=>"iyBdKFCnQq5GonRnCY61WWrD1WH1AgI3njuvjeIAMNTAPinQ2OdwCImkkM6N1tycLW1QRPBoyjKivLb+N9sDgw==", "track"=>{"title"=>"MeWow", "ord"=>"1", "bonus?"=>"false", "lyrics"=>"MEOW MEOW MEWOW", "album_id"=>"1"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+Unpermitted parameter: :bonus?
+No template found for TracksController#create, rendering head :no_content
+Completed 204 No Content in 71ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/tracks" for 127.0.0.1 at 2018-06-14 17:05:53 -0400
+Processing by TracksController#create as HTML
+  Parameters: {"authenticity_token"=>"iyBdKFCnQq5GonRnCY61WWrD1WH1AgI3njuvjeIAMNTAPinQ2OdwCImkkM6N1tycLW1QRPBoyjKivLb+N9sDgw==", "track"=>{"title"=>"MeWow", "ord"=>"1", "bonus?"=>"false", "lyrics"=>"MEOW MEOW MEWOW", "album_id"=>"1"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+Unpermitted parameter: :bonus?
+No template found for TracksController#create, rendering head :no_content
+Completed 204 No Content in 72ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 17:08:47 -0400
+  
+SyntaxError (/Users/appacademy/Desktop/W4D4/music_app/app/controllers/tracks_controller.rb:13: syntax error, unexpected ']'
+      flash.now[error:] = track.errors.full_messages
+                       ^):
+  
+app/controllers/tracks_controller.rb:13: syntax error, unexpected ']'
+Started GET "/tracks/new" for 127.0.0.1 at 2018-06-14 17:09:01 -0400
+Processing by TracksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering tracks/new.html.erb within layouts/application
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT "albums".* FROM "albums"[0m
+  Rendered tracks/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 109ms (Views: 60.2ms | ActiveRecord: 12.2ms)
+
+
+Started GET "/bands" for 127.0.0.1 at 2018-06-14 17:09:09 -0400
+Processing by BandsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  Rendering bands/index.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  Rendered bands/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 62ms (Views: 55.1ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/bands/8" for 127.0.0.1 at 2018-06-14 17:09:11 -0400
+Processing by BandsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  [1m[36mBand Load (1.7ms)[0m  [1m[34mSELECT  "bands".* FROM "bands" WHERE "bands"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering bands/show.html.erb within layouts/application
+  [1m[36mAlbum Load (0.4ms)[0m  [1m[34mSELECT "albums".* FROM "albums" WHERE "albums"."band_id" = $1[0m  [["band_id", 8]]
+  Rendered bands/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 71ms (Views: 65.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/albums/2" for 127.0.0.1 at 2018-06-14 17:09:12 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering albums/show.html.erb within layouts/application
+  [1m[36mBand Load (0.3ms)[0m  [1m[34mSELECT  "bands".* FROM "bands" WHERE "bands"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendered albums/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/albums/2/edit" for 127.0.0.1 at 2018-06-14 17:09:16 -0400
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "wiJQ8RxAI0n_vmHYWZxDxA"], ["LIMIT", 1]]
+  [1m[36mAlbum Load (0.3ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering albums/edit.html.erb within layouts/application
+  [1m[36mBand Load (0.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  Rendered albums/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 74ms (Views: 69.4ms | ActiveRecord: 1.0ms)
+
+
