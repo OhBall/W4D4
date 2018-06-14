@@ -20,6 +20,13 @@ class TracksController < ApplicationController
     render :show
   end
 
+  def edit
+    @track = current_track
+    render :edit
+  end
+
+  
+
   private
   def track_params
     params.require(:track).permit(:title, :ord, :bonus, :lyrics, :album_id)
