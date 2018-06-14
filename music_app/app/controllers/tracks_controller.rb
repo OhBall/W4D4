@@ -25,7 +25,17 @@ class TracksController < ApplicationController
     render :edit
   end
 
-  
+  def update
+    track = current_track
+    track_params.each { |k,v| track[k] = v }
+    if track.save
+      redirect_to track_url(track)
+    else
+      flash_errors
+      render :edit
+    end
+
+  end
 
   private
   def track_params
@@ -34,5 +44,9 @@ class TracksController < ApplicationController
 
   def current_track
     Track.find(params[:id])
+  end
+
+  def flash_errors
+    flash.now[:error] = track.errors.full_messages
   end
 end
